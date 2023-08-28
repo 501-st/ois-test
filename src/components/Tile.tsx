@@ -17,12 +17,10 @@ export const Tile = (props: OwnProps) => {
 };
 
 const Title = styled.p`
-  max-width: 130px;
+  width: 130px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  position: absolute;
-  left: 10px;
 `;
 
 const Image = styled.img`
